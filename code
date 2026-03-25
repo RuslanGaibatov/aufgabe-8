@@ -1,0 +1,41 @@
+Public Class Form1
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        cmbAuswahl.Items.Add("Option 1")
+        cmbAuswahl.Items.Add("Option 2")
+        cmbAuswahl.Items.Add("Option 3")
+
+        cmbAuswahl.SelectedIndex = 0
+
+        txtEingabe.Text = "Beispieltext"
+
+    End Sub
+
+    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+
+        txtEingabe.Text = "TrackBar Wert: " & trkWert.Value
+
+        If rbOpenFile.Checked Then
+            If ofd.ShowDialog() = DialogResult.OK Then
+                MessageBox.Show("Gewählte Datei: " & ofd.FileName)
+            End If
+        End If
+
+        If rbFont.Checked Then
+            If fd.ShowDialog() = DialogResult.OK Then
+                txtEingabe.Font = fd.Font
+            End If
+        End If
+
+    End Sub
+
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        Me.Close()
+    End Sub
+
+    Private Sub BeendenToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BeendenToolStripMenuItem.Click
+        Me.Close()
+    End Sub
+
+End Class
