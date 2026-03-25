@@ -1,0 +1,59 @@
+Public Class Form1
+
+    ' Kreis berechnen
+    Private Sub btnKreis_Click(sender As Object, e As EventArgs) Handles btnKreis.Click
+
+        If Not IsNumeric(txtRadius.Text) Or Not IsNumeric(txtHoehe.Text) Then
+            MessageBox.Show("Bitte gültige Zahlen eingeben!")
+            Exit Sub
+        End If
+
+        Dim r As Double = CDbl(txtRadius.Text)
+        Dim h As Double = CDbl(txtHoehe.Text)
+
+        Dim kreis As New CKreis(r, h)
+
+        lblErgebnisKreis.Text = "Fläche: " & kreis.Kreisflaeche().ToString("F2")
+
+    End Sub
+
+    ' Kegelstumpf berechnen
+    Private Sub btnKegel_Click(sender As Object, e As EventArgs) Handles btnKegel.Click
+
+        If Not IsNumeric(txtRadiusUnten.Text) Or Not IsNumeric(txtRadiusOben.Text) Or Not IsNumeric(txtHoeheKegel.Text) Then
+            MessageBox.Show("Bitte gültige Zahlen eingeben!")
+            Exit Sub
+        End If
+
+        Dim rUnten As Double = CDbl(txtRadiusUnten.Text)
+        Dim rOben As Double = CDbl(txtRadiusOben.Text)
+        Dim h As Double = CDbl(txtHoeheKegel.Text)
+
+        Dim kegel As New CKegel(rUnten, h, rOben)
+
+        lblErgebnisKegel.Text = "Volumen: " & kegel.Volumen().ToString("F2")
+
+    End Sub
+
+    ' Reset
+    Private Sub btnNeu_Click(sender As Object, e As EventArgs) Handles btnNeu.Click
+
+        txtRadius.Clear()
+        txtHoehe.Clear()
+        txtRadiusUnten.Clear()
+        txtRadiusOben.Clear()
+        txtHoeheKegel.Clear()
+
+        lblErgebnisKreis.Text = ""
+        lblErgebnisKegel.Text = ""
+
+        txtRadius.Focus()
+
+    End Sub
+
+    ' Schließen
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        Me.Close()
+    End Sub
+
+End Class
