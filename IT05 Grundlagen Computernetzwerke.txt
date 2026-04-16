@@ -1,0 +1,265 @@
+IT05 Grundlagen Computernetzwerke
+🧠 1. Was ist ein Computernetzwerk?
+
+Ein Computernetzwerk ist ein Zusammenschluss von Geräten (Computer, Smartphones, Server), die miteinander Daten austauschen.
+
+👉 Ziele:
+
+Daten teilen (z. B. Dateien)
+Kommunikation (E-Mail, Chat)
+Ressourcen nutzen (Drucker, Internet)
+🌍 2. Netzwerkarten
+LAN (Local Area Network) → kleines Netz (z. B. Schule, Zuhause)
+WAN (Wide Area Network) → großes Netz (Internet)
+WLAN → drahtloses LAN
+🔌 3. Netzwerkgeräte
+Router → verbindet Netzwerke (z. B. Internet)
+Switch → verbindet Geräte im LAN
+Access Point → WLAN-Zugang
+Server → stellt Dienste bereit
+Client → nutzt Dienste
+📡 4. IP-Adresse
+
+Jedes Gerät hat eine eindeutige Adresse.
+
+Beispiel:
+
+IPv4: 192.168.0.1
+
+👉 Vergleich: wie eine Hausadresse
+
+🌐 5. DNS (Domain Name System)
+
+Übersetzt:
+
+google.com → 142.250.xxx.xxx
+
+👉 Menschen merken sich Namen, Computer brauchen Zahlen.
+
+📦 6. OSI-Modell (sehr wichtig!)
+
+7 Schichten:
+
+Bitübertragung (Physical)
+Sicherung (Data Link)
+Vermittlung (Network)
+Transport
+Sitzung
+Darstellung
+Anwendung
+
+👉 Merksatz:
+"Alle Deutschen Studenten Trinken Verschiedene Sorten Bier"
+
+🚚 7. TCP vs. UDP
+TCP
+sicher
+langsam
+überprüft Daten
+UDP
+schnell
+unsicher
+keine Kontrolle
+🔐 8. Protokolle
+
+Regeln für Kommunikation:
+
+HTTP / HTTPS → Webseiten
+FTP → Dateien
+SMTP → E-Mails senden
+DNS → Namen auflösen
+📶 9. Datenübertragung
+kabelgebunden (LAN)
+drahtlos (WLAN, Bluetooth)
+🔑 10. Sicherheit
+Firewall → schützt Netzwerk
+Verschlüsselung (HTTPS)
+Passwortschutz
+⚡ SPICKZETTEL (kurz & kompakt)
+🧾 Grundlagen
+Netzwerk = Geräte verbinden
+Ziel: Daten austauschen
+🌍 Arten
+LAN = lokal
+WAN = global
+WLAN = kabellos
+🔌 Geräte
+Router = Internet
+Switch = Verteilung
+Server = Anbieter
+Client = Nutzer
+📡 IP-Adresse
+eindeutig
+Beispiel: 192.168.x.x
+🌐 DNS
+Name → IP
+📦 OSI-Modell
+Physical
+Data Link
+Network
+Transport
+Session
+Presentation
+Application
+
+👉 Merksatz: ADS TV SB
+
+🚚 TCP/UDP
+TCP = sicher
+UDP = schnell
+🔐 Protokolle
+HTTP → Webseiten
+HTTPS → sicher
+FTP → Dateien
+SMTP → Mail
+🛡 Sicherheit
+Firewall
+Verschlüsselung
+Passwörter
+💡 Lern-Tipps
+OSI-Modell auswendig können
+TCP vs. UDP verstehen (kommt oft!)
+IP + DNS = Basics
+
+Alles klar 😄 jetzt machen wir **richtig Prüfungsvorbereitung für LF5 – IT-Systeme vernetzen** (so wie es bei euch an der **Berufsbildende Schulen Altmarkkreis Salzwedel läuft).
+
+Ich geb dir jetzt eine **echte Probe-Klassenarbeit + Lösungen** — genau auf eurem Niveau.
+
+---
+
+# 📝 **PROBE-KA (wie bei euch!)**
+
+## **Aufgabe 1 (Basics – 6 Punkte)**
+
+Erkläre kurz:
+
+a) Was ist ein LAN?
+b) Was macht ein Router?
+c) Was ist eine IP-Adresse?
+
+---
+
+## **Aufgabe 2 (DNS & Internet – 6 Punkte)**
+
+Erkläre den Ablauf, wenn ein Benutzer **[www.google.de](http://www.google.de)** eingibt.
+
+---
+
+## **Aufgabe 3 (OSI-Modell – 8 Punkte)**
+
+a) Nenne die Schichten 1–7 in richtiger Reihenfolge
+b) Ordne zu:
+
+* HTTP
+* IP
+* TCP
+
+---
+
+## **Aufgabe 4 (TCP vs UDP – 6 Punkte)**
+
+Ordne zu und begründe:
+
+a) Video-Stream
+b) Datei-Download
+c) Online-Game
+
+---
+
+## **Aufgabe 5 (Geräte – 4 Punkte)**
+
+Welches Gerät ist gemeint?
+
+a) Verbindet Heimnetz mit Internet
+b) Verbindet mehrere PCs im Netzwerk
+c) Stellt WLAN bereit
+
+---
+
+# ✅ **LÖSUNGEN (zum Lernen!)**
+
+## Aufgabe 1
+
+a) Kleines lokales Netzwerk (z. B. Schule)
+b) Verbindet dein Netzwerk mit dem Internet
+c) Eindeutige Adresse eines Geräts
+
+---
+
+## Aufgabe 2 (SEHR WICHTIG!)
+
+1. DNS → Name wird in IP übersetzt
+2. Verbindung → TCP wird aufgebaut
+3. Anfrage → HTTP
+4. Server sendet Webseite zurück
+
+👉 Das kommt FAST IMMER dran!
+
+---
+
+## Aufgabe 3
+
+### a) Reihenfolge:
+
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+### b)
+
+* HTTP → Anwendung (7)
+* IP → Network (3)
+* TCP → Transport (4)
+
+---
+
+## Aufgabe 4
+
+a) Video → UDP (schnell wichtig)
+b) Download → TCP (fehlerfrei wichtig)
+c) Game → UDP (geringe Verzögerung)
+
+---
+
+## Aufgabe 5
+
+a) Router
+b) Switch
+c) Access Point
+
+---
+
+# ⚡ **ULTIMATIVE 30-SEKUNDEN-RETTUNG**
+
+Wenn du kurz vor der KA bist, merk dir DAS:
+
+👉 DNS = Name → IP
+👉 TCP = sicher
+👉 UDP = schnell
+👉 Router = Internet
+
+👉 Ablauf Internet:
+**DNS → TCP → HTTP → Antwort**
+
+---
+
+# 🧠 Letzter Tipp (wichtig!)
+
+Wenn du nicht weiterweißt:
+
+* Schreib irgendwas mit **„Datenpakete“**
+* oder **„Verbindung wird aufgebaut“**
+
+👉 gibt fast immer Punkte!
+
+---
+
+Wenn du willst, mach ich dir noch:
+🔥 **noch schwerere Aufgaben (Lehrer-Level)**fffffff
+🔥 oder **1-Seite PDF-Spicker im Kopf-Format**
+
+Sag einfach 👍
